@@ -1,13 +1,24 @@
 [
 	{
-		"nombre": "Producto AA",
-		"precio": "1234",
-		"stock": "3",
-		"marca": "Marca AA",
-		"categoria": "Categoria AA",
-		"detalles": "Detalle AA",
-		"foto": "fotoAA.jpg",
+		"nombre": "Producto 7",
+		"precio": "245",
+		"stock": "5",
+		"marca": "Marca 7",
+		"categoria": "Categoria 7",
+		"detalles": "Detalle 7",
+		"foto": "foto7.pnj",
 		"envio": "true",
-		"id": "1"
+		"id": 1
+	},
+	{
+		"nombre": "Producto 8",
+		"precio": "345",
+		"stock": "51",
+		"marca": "Marca 8",
+		"categoria": "Categoria 8",
+		"detalles": "Detalle 8",
+		"foto": "foto8.pnj",
+		"envio": "true",
+		"id": 2
 	}
 ]

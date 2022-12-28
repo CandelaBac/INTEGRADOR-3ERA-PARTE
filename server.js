@@ -5,7 +5,7 @@ const express = require('express')
 const app = express()
 require('dotenv').config()
 
-// Middleware (use, toda mi aplicación está afectada por estos middlewares)
+// Middleware
 app.use(express.static('public'))
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
@@ -13,6 +13,8 @@ app.use(express.json())
 // Routeo de mi aplicación
 //app.use('/api/productos', routerProductos) // (1)
 app.use('/api/productos', require('./routers/productos')) // (2)
+
+
 app.use('/api/carrito', require('./routers/carrito')) 
 app.use('/api/upload', require('./routers/upload')) 
 
