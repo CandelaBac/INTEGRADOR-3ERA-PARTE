@@ -19,9 +19,9 @@ const guardarCarrito = async (req, res) => {
     let preference = {
 		items: items,
 		back_urls: {
-			"success": "http://localhost:8080/api/carrito/feedback",
-			"failure": "http://localhost:8080/api/carrito/feedback",
-			"pending": "http://localhost:8080/api/carrito/feedback"
+			"success": "http://localhost:5500/api/carrito/feedback",
+			"failure": "http://localhost:5500/api/carrito/feedback",
+			"pending": "http://localhost:5500/api/carrito/feedback"
 		},
 		auto_return: "approved",
 	};
