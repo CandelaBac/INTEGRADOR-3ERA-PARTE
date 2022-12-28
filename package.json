@@ -1,7 +1,7 @@
 {
   "name": "integrador-3era-parte",
   "version": "1.0.0",
-  "description": "Integrador parte 3",
+  "description": "Integrador parte 3 - Candela Baclini",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
